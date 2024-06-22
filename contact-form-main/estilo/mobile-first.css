@@ -54,6 +54,15 @@ body {
         margin-bottom: 10px;
         margin-top: 10px;
     }
+    main > section#login > div.formulario > form > input#fname:invalid:required{
+        border: 2px solid rgba(255, 0, 0, 0.500);
+    }
+    main > section#login > div.formulario > form > input#fname:hover {
+        background-color: #0cb7983d;
+    }
+    main > section#login > div.formulario > form > input#fname:focus {
+        background-color: #0cb7983d;
+    }
     /* PRIMEIRO NOME */
 
     /* ÚLTIMO NOME */
@@ -63,6 +72,12 @@ body {
         border-radius: 5px;
         margin-bottom: 10px;
         margin-top: 10px;
+    }
+    main > section#login > div.formulario > form > input#lname:invalid:required{
+        border: 2px solid rgba(255, 0, 0, 0.500);
+    }
+    main > section#login > div.formulario > form > input#lname:hover {
+        background-color: #0cb7983d;
     }
     /* ÚLTIMO NOME */
 
@@ -74,6 +89,12 @@ body {
         margin-bottom: 10px;
         margin-top: 10px;
     }
+    main > section#login > div.formulario > form > input#email:invalid:required{
+        border: 2px solid rgba(255, 0, 0, 0.500);
+    }
+    main > section#login > div.formulario > form > input#email:hover {
+        background-color: #0cb7983d;
+    }
     /* EMAIL */
 
     /* MENSAGEM */
@@ -83,6 +104,12 @@ body {
         border-radius: 5px;
         margin-bottom: 10px;
         margin-top: 10px;
+    }
+    main > section#login > div.formulario > form > input#msg:invalid:required{
+        border: 2px solid rgba(255, 0, 0, 0.500);
+    }
+    main > section#login > div.formulario > form > input#msg:hover {
+        background-color: #0cb7983d;
     }
     /* MENSAGEM */
 
@@ -95,12 +122,18 @@ body {
         margin-bottom: 10px;
         margin-top: 10px;
     }
+    main > section#login > div.formulario > form > div.radio-1:hover {
+        background-color: #0cb7983d;
+    }
     main > section#login > div.formulario > form > div.radio-2 {
         height: 40px;
         width: 270px;
         border-radius: 5px;
         border: 1px solid black;
         margin-bottom: 10px;
+    }
+    main > section#login > div.formulario > form > div.radio-2:hover {
+        background-color: #0cb7983d;
     }
     main > section#login > div.formulario > form > div > input#genquery, input#srequest {
         margin-left: 20px;
