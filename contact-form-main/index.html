@@ -2,48 +2,61 @@
 <html lang="pr-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Contact form</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="estilo/mobile-first.css">
 </head>
 <body>
+  <main>
+    <section id="login">
+      <div class="formulario">
+        
+        <h1>Contact Us</h1>
+        <form action="login.php" method="post" autocomplete="on">
+          
+            <label class="first-name" for="fname">First Name *</label> <br>
+            <input type="text" name="fname" id="fname" required> <br>
+            <!-- This field is required -->
+          
+            <label class="lname" for="lname">Last Name *</label> <br>
+            <input type="text" name="lname" id="lname" required><br>
+            <!-- This field is required -->
+          
+            <label class="email" for="email">Email Address *</label><br>
+            <input type="email" name="email" id="email" required><br>
+            <!-- Please enter a valid email address
+            This field is required -->
+          
+            <label class="qtype" for="qtype">Query Type *</label><br>
 
-  Contact Us
+            <div class="radio-1">
+              <input type="radio" name="qtype" id="genquery" required>
+              <label for="genquery" class="genquery">General Enquiry</label><br>
+            </div>
 
-  First Name
-  This field is required
-
-  Last Name
-  This field is required
-
-  Email Address
-  Please enter a valid email address
-  This field is required
-
-  Query Type
-  General Enquiry
-  Support Request
-  Please select a query type
-
-  Message
-  This field is required
-
-  I consent to being contacted by the team
-  To submit this form, please consent to being contacted
-
-  Submit
-
-  Message Sent!
-  Thanks for completing the form. We'll be in touch soon!
-  
+            <div class="radio-2">
+              <input type="radio" name="qtype" id="srequest" required>
+              <label for="srequest">Support Request</label><br>
+            </div>
+            <!-- Please select a query type -->
+          
+            <label class="msg" for="msg">Message *</label><br>
+            <input type="text" name="msg" id="msg" required maxlength="250"><br>
+            <!-- This field is required -->
+          
+            <input class="consent" type="checkbox" name="consent" id="consent" required><label for="consent">I consent to being contacted by the team *</label></input>
+            <!-- To submit this form, please consent to being contacted -->
+          
+            <input type="submit" value="Submit" id="submit"></input>
+          
+            <!-- Message Sent!
+            Thanks for completing the form. We'll be in touch soon! -->
+          
+        </form>
+      </div>
+    </section>
+  </main>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
