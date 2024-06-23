@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+    main {
+        background-color: white;
+        width: 550px;
+        height: 600px;
+        border-radius: 10px;
+        font-family: 'Karla Italic', sans-serif;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.208);
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    main > section#login {
+        padding: 20px;
+    }
+    main > section#login > div.formulario {
+        padding: 10px;
+    }
+    main > section#login > div.formulario > form { 
+        display: flex;
+        flex-flow: column wrap;
+    }
+    main > section#login > div.formulario > form {  
+        
+    }
+    /* CONTACT US */
+    main > section#login > div.formulario > h1 {
+        text-align: left;
+        margin-bottom: 25px;
+    }
+    /* CONTACT US */
+
+    /* PRIMEIRO NOME */
+    main > section#login > div.formulario > form > input#fname {
+        height: 40px;
+        width: 210px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        display: inline;
+    }
+    main > section#login > div.formulario > form > input#fname:invalid:required{
+        border: 2px solid rgba(255, 0, 0, 0.500);
+    }
+    main > section#login > div.formulario > form > input#fname:hover {
+        background-color: #0cb7983d;
+    }
+    main > section#login > div.formulario > form > input#fname:focus {
+        background-color: #0cb7983d;
+    }
+    /* PRIMEIRO NOME */
+
+    /* ÚLTIMO NOME */
+    main > section#login > div.formulario > form > input#lname {
+        height: 40px;
+        width: 210px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        display: inline;
+    }
+    main > section#login > div.formulario > form > input#lname:invalid:required{
+        border: 2px solid rgba(255, 0, 0, 0.500);
+    }
+    main > section#login > div.formulario > form > input#lname:hover {
+        background-color: #0cb7983d;
+    }
+    /* ÚLTIMO NOME */
+}

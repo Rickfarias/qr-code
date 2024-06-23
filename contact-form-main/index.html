@@ -6,6 +6,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <title>Frontend Mentor | Contact form</title>
   <link rel="stylesheet" href="estilo/mobile-first.css">
+  <link rel="stylesheet" href="estilo/mediaqueries.css">
 </head>
 <body>
   <main>
@@ -16,15 +17,15 @@
         <form action="login.php" method="post" autocomplete="on">
           
             <label class="first-name" for="fname">First Name *</label> <br>
-            <input type="text" name="fname" id="fname" required autocomplete="name"> <br>
+            <input type="text" name="fname" id="fname" required autocomplete="name" maxlength="30"> <br>
             <!-- This field is required -->
           
             <label class="lname" for="lname">Last Name *</label> <br>
-            <input type="text" name="lname" id="lname" required autocomplete="family-name"><br>
+            <input type="text" name="lname" id="lname" required autocomplete="family-name" maxlength="30"><br>
             <!-- This field is required -->
           
             <label class="email" for="email">Email Address *</label><br>
-            <input type="email" name="email" id="email" required autocomplete="email"><br>
+            <input type="email" name="email" id="email" required autocomplete="email" maxlength="60"><br>
             <!-- Please enter a valid email address
             This field is required -->
           
@@ -49,7 +50,7 @@
             <!-- To submit this form, please consent to being contacted -->
           
             <input type="submit" value="Submit" id="submit"></input>
-          
+
             <!-- Message Sent!
             Thanks for completing the form. We'll be in touch soon! -->
           

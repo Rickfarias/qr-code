@@ -89,8 +89,11 @@ body {
         margin-bottom: 10px;
         margin-top: 10px;
     }
-    main > section#login > div.formulario > form > input#email:invalid:required{
-        border: 2px solid rgba(255, 0, 0, 0.500);
+    main > section#login > div.formulario > form > input#email:required {
+        border: 2px solid black;
+    }
+    main > section#login > div.formulario > form > input#email:required:invalid {
+        border-color: rgba(255, 0, 0, 0.519);
     }
     main > section#login > div.formulario > form > input#email:hover {
         background-color: #0cb7983d;
