@@ -47,77 +47,77 @@ body {
     /* CONTACT US */
 
     /* PRIMEIRO NOME */
-    main > section#login > div.formulario > form > input#fname {
+    main > #login > .formulario > form > .box-forms > #fname {
         height: 40px;
         width: 270px;
         border-radius: 5px;
         margin-bottom: 10px;
         margin-top: 10px;
     }
-    main > section#login > div.formulario > form > input#fname:invalid:required{
+    main > #login > .formulario > form > .box-forms >#fname:invalid:required{
         border: 2px solid rgba(255, 0, 0, 0.500);
     }
-    main > section#login > div.formulario > form > input#fname:hover {
+    main > #login > .formulario > form > .box-forms > #fname:hover {
         background-color: #0cb7983d;
     }
-    main > section#login > div.formulario > form > input#fname:focus {
+    main > #login > .formulario > form > .box-forms > #fname:focus {
         background-color: #0cb7983d;
     }
     /* PRIMEIRO NOME */
 
     /* ÚLTIMO NOME */
-    main > section#login > div.formulario > form > input#lname {
+    main > #login > .formulario > form > .box-forms > #lname {
         height: 40px;
         width: 270px;
         border-radius: 5px;
         margin-bottom: 10px;
         margin-top: 10px;
     }
-    main > section#login > div.formulario > form > input#lname:invalid:required{
+    main > #login > .formulario > form > .box-forms > #lname:invalid:required{
         border: 2px solid rgba(255, 0, 0, 0.500);
     }
-    main > section#login > div.formulario > form > input#lname:hover {
+    main > #login > .formulario > form > .box-forms > #lname:hover {
         background-color: #0cb7983d;
     }
     /* ÚLTIMO NOME */
 
     /* EMAIL */
-    main > section#login > div.formulario > form > input#email {
+    main > #login > .formulario > form > #email {
         height: 40px;
         width: 270px;
         border-radius: 5px;
         margin-bottom: 10px;
         margin-top: 10px;
     }
-    main > section#login > div.formulario > form > input#email:required {
+    main > #login > .formulario > form > #email:required {
         border: 2px solid black;
     }
-    main > section#login > div.formulario > form > input#email:required:invalid {
+    main > #login > .formulario > form > #email:required:invalid {
         border-color: rgba(255, 0, 0, 0.519);
     }
-    main > section#login > div.formulario > form > input#email:hover {
+    main > #login > .formulario > form > #email:hover {
         background-color: #0cb7983d;
     }
     /* EMAIL */
 
     /* MENSAGEM */
-    main > section#login > div.formulario > form > input#msg {
+    main > #login > .formulario > form > #msg {
         height: 200px;
         width: 270px;
         border-radius: 5px;
         margin-bottom: 10px;
         margin-top: 10px;
     }
-    main > section#login > div.formulario > form > input#msg:invalid:required{
+    main > #login > .formulario > form > #msg:invalid:required{
         border: 2px solid rgba(255, 0, 0, 0.500);
     }
-    main > section#login > div.formulario > form > input#msg:hover {
+    main > #login > .formulario > form > #msg:hover {
         background-color: #0cb7983d;
     }
     /* MENSAGEM */
 
     /* RADIOS (SELEÇÃO ÚNICA) */
-    main > section#login > div.formulario > form > div.radio-1 {
+    main > #login > .formulario > form > div > .radio-1 {
         height: 40px;
         width: 270px;
         border-radius: 5px;
@@ -125,33 +125,34 @@ body {
         margin-bottom: 10px;
         margin-top: 10px;
     }
-    main > section#login > div.formulario > form > div.radio-1:hover {
+    main > #login > .formulario > form > div > .radio-1:hover {
         background-color: #0cb7983d;
     }
-    main > section#login > div.formulario > form > div.radio-2 {
+    main > #login > .formulario > form > div > .radio-2 {
         height: 40px;
         width: 270px;
         border-radius: 5px;
         border: 1px solid black;
         margin-bottom: 10px;
+
     }
-    main > section#login > div.formulario > form > div.radio-2:hover {
+    main > #login > .formulario > form > div > .radio-2:hover {
         background-color: #0cb7983d;
     }
-    main > section#login > div.formulario > form > div > input#genquery, input#srequest {
+    main > #login > .formulario > form > .container > div > #genquery, #srequest {
         margin-left: 20px;
         margin-top: 12px;
     }
     /* RADIOS (SELEÇÃO ÚNICA) */
 
     /* TERMO DE CONSETIMENTO */
-    main > section#login > div.formulario > form > input.consent {
+    main > #login > .formulario > form > .consent {
         margin-right: 20px;
     }
     /* TERMO DE CONSETIMENTO */
     
     /* BOTÃO DE ENVIAR (SUBMIT) */
-    main > section#login > div.formulario > form > input#submit {
+    main > #login > .formulario > form > #submit {
         width: 270px;
         height: 40px;
         border-radius: 5px;

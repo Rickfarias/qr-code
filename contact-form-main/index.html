@@ -16,12 +16,16 @@
         <h1>Contact Us</h1>
         <form action="login.php" method="post" autocomplete="on">
           
-            <label class="first-name" for="fname">First Name *</label> <br>
-            <input type="text" name="fname" id="fname" required autocomplete="name" maxlength="30"> <br>
+            <div class="box-forms">
+              <label class="first-name" for="fname">First Name *</label> <br>
+              <input type="text" name="fname" id="fname" required autocomplete="name" maxlength="30">
+            </div>
             <!-- This field is required -->
           
-            <label class="lname" for="lname">Last Name *</label> <br>
-            <input type="text" name="lname" id="lname" required autocomplete="family-name" maxlength="30"><br>
+            <div class="box-forms">
+              <label class="lname" for="lname">Last Name *</label> <br>
+              <input type="text" name="lname" id="lname" required autocomplete="family-name" maxlength="30">
+            </div>
             <!-- This field is required -->
           
             <label class="email" for="email">Email Address *</label><br>
@@ -31,14 +35,16 @@
           
             <label class="qtype" for="qtype">Query Type *</label><br>
 
-            <div class="radio-1">
-              <input type="radio" name="qtype" id="genquery" required>
-              <label for="genquery" class="genquery">General Enquiry</label><br>
-            </div>
-
-            <div class="radio-2">
-              <input type="radio" name="qtype" id="srequest" required>
-              <label for="srequest">Support Request</label><br>
+           <div class="container">
+              <div class="radio-1">
+                <input type="radio" name="qtype" id="genquery" required>
+                <label for="genquery" class="genquery">General Enquiry</label><br>
+              </div>
+  
+              <div class="radio-2">
+                <input type="radio" name="qtype" id="srequest" required>
+                <label for="srequest">Support Request</label><br>
+              </div>
             </div>
             <!-- Please select a query type -->
           
